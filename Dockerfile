@@ -1,6 +1,6 @@
 # Explicitly specify `bionic` because `swift:latest` does not use `ubuntu:latest`.
 ARG BUILDER_IMAGE=swift:bionic
-ARG RUNTIME_IMAGE=ubuntu:bionic
+ARG RUNTIME_IMAGE=ubuntu:18.04
 
 # builder image
 FROM ${BUILDER_IMAGE} AS builder
