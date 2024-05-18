@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'cocoapods'
-gem 'danger'
+gem 'danger', '>= 7.0.0'
 gem 'jazzy'
